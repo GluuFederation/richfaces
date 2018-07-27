@@ -601,14 +601,12 @@
 
     <distributionManagement>
         <repository>
-            <id>jboss-releases-repository</id>
-            <name>JBoss Releases Repository</name>
-            <url>${jboss.releases.repo.url}</url>
+            <id>vendor-releases</id>
+            <url>http://maven.nuxeo.org/nexus/content/repositories/vendor-releases</url>
         </repository>
         <snapshotRepository>
-            <id>jboss-snapshots-repository</id>
-            <name>JBoss Snapshots Repository</name>
-            <url>${jboss.snapshots.repo.url}</url>
+            <url>http://maven.nuxeo.org/nexus/content/repositories/vendor-snapshots</url>
+            <uniqueVersion>true</uniqueVersion>
         </snapshotRepository>
     </distributionManagement>
 
