@@ -598,16 +598,4 @@
         <url>https://github.com/richfaces/richfaces5</url>
         <tag>HEAD</tag>
     </scm>
-
-    <distributionManagement>
-        <repository>
-            <id>vendor-releases</id>
-            <url>http://maven.nuxeo.org/nexus/content/repositories/vendor-releases</url>
-        </repository>
-        <snapshotRepository>
-            <url>http://maven.nuxeo.org/nexus/content/repositories/vendor-snapshots</url>
-            <uniqueVersion>true</uniqueVersion>
-        </snapshotRepository>
-    </distributionManagement>
-
 </project>
