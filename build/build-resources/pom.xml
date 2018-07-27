@@ -208,6 +208,11 @@
 
     <repositories>
         <repository>
+            <id>jboss-releases-repository</id>
+            <name>JBoss Releases Repository</name>
+            <url>${jboss.releases.repo.url}</url>
+        </repository>
+        <repository>
             <id>jboss</id>
             <url>https://repository.jboss.org/nexus/content/repositories/releases/</url>
             <releases>
@@ -217,6 +222,22 @@
                 <enabled>false</enabled>
             </snapshots>
         </repository>
+        <snapshotRepository>
+            <id>jboss-snapshots-repository</id>
+            <name>JBoss Snapshots Repository</name>
+            <url>${jboss.snapshots.repo.url}</url>
+        </snapshotRepository>
   </repositories>
+
+    <pluginRepositories>
+        <pluginRepository>
+            <id>jboss</id>
+            <name>JBoss Repository</name>
+            <url>https://repository.jboss.org/nexus/content/repositories/releases</url>
+            <releases>
+                <enabled>false</enabled>
+            </releases>
+        </pluginRepository>
+    </pluginRepositories>
 
 </project>
